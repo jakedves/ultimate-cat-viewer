@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		50D1BFF129EC33DB0043616E /* Ultimate_Cat_ViewerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D1BFF029EC33DB0043616E /* Ultimate_Cat_ViewerApp.swift */; };
 		50D1BFF329EC33DB0043616E /* CatViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D1BFF229EC33DB0043616E /* CatViewer.swift */; };
-		50D1BFF529EC33DE0043616E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D1BFF429EC33DE0043616E /* Assets.xcassets */; };
 		50D1BFF829EC33DE0043616E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D1BFF729EC33DE0043616E /* Preview Assets.xcassets */; };
 		50D1BFFF29EC345C0043616E /* Cat Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D1BFFE29EC345B0043616E /* Cat Data.swift */; };
+		50D1C00129EC35990043616E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50D1C00029EC35990043616E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		50D1BFED29EC33DB0043616E /* Ultimate Cat Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ultimate Cat Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D1BFF029EC33DB0043616E /* Ultimate_Cat_ViewerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ultimate_Cat_ViewerApp.swift; sourceTree = "<group>"; };
 		50D1BFF229EC33DB0043616E /* CatViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewer.swift; sourceTree = "<group>"; };
-		50D1BFF429EC33DE0043616E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50D1BFF729EC33DE0043616E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50D1BFFE29EC345B0043616E /* Cat Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Cat Data.swift"; sourceTree = "<group>"; };
+		50D1C00029EC35990043616E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../CatViewer/CatViewer/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +56,7 @@
 				50D1BFF029EC33DB0043616E /* Ultimate_Cat_ViewerApp.swift */,
 				50D1BFF229EC33DB0043616E /* CatViewer.swift */,
 				50D1BFFE29EC345B0043616E /* Cat Data.swift */,
-				50D1BFF429EC33DE0043616E /* Assets.xcassets */,
+				50D1C00029EC35990043616E /* Assets.xcassets */,
 				50D1BFF629EC33DE0043616E /* Preview Content */,
 			);
 			path = "Ultimate Cat Viewer";
@@ -129,7 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50D1BFF829EC33DE0043616E /* Preview Assets.xcassets in Resources */,
-				50D1BFF529EC33DE0043616E /* Assets.xcassets in Resources */,
+				50D1C00129EC35990043616E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
